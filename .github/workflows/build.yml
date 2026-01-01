@@ -220,6 +220,7 @@ jobs:
     env:
       BUILD_MODE: release
       RUST_BACKTRACE: 1
+      CARGO_BUILD_JOBS: 1
     # yamllint disable rule:line-length
     services:
       redis:
