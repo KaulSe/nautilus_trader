@@ -12,7 +12,7 @@ permissions:
 on:
   push:
     branches:
-      - test-ci
+      # - test-ci
       - develop
       - nightly
 
